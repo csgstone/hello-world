@@ -1,4 +1,4 @@
-Current Alarm Manager state:
+Current Alarm Manager state:  
 nowRTC=1465886142536=2016-06-14 14:35:42 nowELAPSED=611222451
 Next alarm: 611179915 = 2016-06-14 14:35:00
 Next wakeup: 611227945 = 2016-06-14 14:35:48
