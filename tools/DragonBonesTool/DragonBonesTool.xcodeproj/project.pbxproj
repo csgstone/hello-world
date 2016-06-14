@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D818D3F91B28387800CEE370 /* libpbc Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D818D3E31B2833B900CEE370 /* libpbc Mac.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		D818D3FA1B28387D00CEE370 /* libdragonbones Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C75DCA1B27FE650020B3E4 /* libdragonbones Mac.a */; };
+		D838BF7E1B314B860053B691 /* DBXMLConvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D838BF7C1B314B860053B691 /* DBXMLConvert.cpp */; };
+		D8FD30C51B27FACA00C9AF59 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8FD30C41B27FACA00C9AF59 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D818D3E01B2833B900CEE370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D818D3DB1B2833B900CEE370 /* pbc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7EF1334179E5530002B6A46;
+			remoteInfo = "pbc IOS";
+		};
+		D818D3E21B2833B900CEE370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D818D3DB1B2833B900CEE370 /* pbc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8E5FB791A5D041A0077BFEE;
+			remoteInfo = "pbc Mac";
+		};
+		D818D3F51B28386000CEE370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D818D3DB1B2833B900CEE370 /* pbc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E5FB641A5D041A0077BFEE;
+			remoteInfo = "pbc Mac";
+		};
+		D818D3F71B28386300CEE370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C75DC21B27FE650020B3E4 /* DragonBonesCPP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D84EE2801A393ACC002E57F7;
+			remoteInfo = "dragonbones Mac";
+		};
+		D8C75DC71B27FE650020B3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C75DC21B27FE650020B3E4 /* DragonBonesCPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D84EE1731A3854CC002E57F7;
+			remoteInfo = "dragonbones IOS";
+		};
+		D8C75DC91B27FE650020B3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C75DC21B27FE650020B3E4 /* DragonBonesCPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D84EE2991A393ACC002E57F7;
+			remoteInfo = "dragonbones Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8FD30BF1B27FACA00C9AF59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D818D3DB1B2833B900CEE370 /* pbc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pbc.xcodeproj; path = ../../client/frameworks/thirdparty/pbc/pbc.xcodeproj; sourceTree = "<group>"; };
+		D838BF7C1B314B860053B691 /* DBXMLConvert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBXMLConvert.cpp; sourceTree = "<group>"; };
+		D838BF7D1B314B860053B691 /* DBXMLConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBXMLConvert.h; sourceTree = "<group>"; };
+		D8C75DC21B27FE650020B3E4 /* DragonBonesCPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DragonBonesCPP.xcodeproj; path = "../../client/frameworks/thirdparty/dragonbones/renderer/cocos2d-x-3.2/proj.ios/DragonBonesCPP.xcodeproj"; sourceTree = "<group>"; };
+		D8C75DD71B2806900020B3E4 /* Arg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arg.h; sourceTree = "<group>"; };
+		D8C75DD81B2806900020B3E4 /* ArgException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgException.h; sourceTree = "<group>"; };
+		D8C75DD91B2806900020B3E4 /* ArgTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgTraits.h; sourceTree = "<group>"; };
+		D8C75DDA1B2806900020B3E4 /* CmdLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLine.h; sourceTree = "<group>"; };
+		D8C75DDB1B2806900020B3E4 /* CmdLineInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLineInterface.h; sourceTree = "<group>"; };
+		D8C75DDC1B2806900020B3E4 /* CmdLineOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdLineOutput.h; sourceTree = "<group>"; };
+		D8C75DDD1B2806900020B3E4 /* Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		D8C75DDE1B2806900020B3E4 /* DocBookOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocBookOutput.h; sourceTree = "<group>"; };
+		D8C75DDF1B2806900020B3E4 /* HelpVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVisitor.h; sourceTree = "<group>"; };
+		D8C75DE01B2806900020B3E4 /* IgnoreRestVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgnoreRestVisitor.h; sourceTree = "<group>"; };
+		D8C75DE31B2806900020B3E4 /* MultiArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiArg.h; sourceTree = "<group>"; };
+		D8C75DE41B2806900020B3E4 /* MultiSwitchArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSwitchArg.h; sourceTree = "<group>"; };
+		D8C75DE51B2806900020B3E4 /* OptionalUnlabeledTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalUnlabeledTracker.h; sourceTree = "<group>"; };
+		D8C75DE61B2806900020B3E4 /* StandardTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTraits.h; sourceTree = "<group>"; };
+		D8C75DE71B2806900020B3E4 /* StdOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdOutput.h; sourceTree = "<group>"; };
+		D8C75DE81B2806900020B3E4 /* SwitchArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchArg.h; sourceTree = "<group>"; };
+		D8C75DE91B2806900020B3E4 /* UnlabeledMultiArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlabeledMultiArg.h; sourceTree = "<group>"; };
+		D8C75DEA1B2806900020B3E4 /* UnlabeledValueArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlabeledValueArg.h; sourceTree = "<group>"; };
+		D8C75DEB1B2806900020B3E4 /* ValueArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueArg.h; sourceTree = "<group>"; };
+		D8C75DEC1B2806900020B3E4 /* ValuesConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValuesConstraint.h; sourceTree = "<group>"; };
+		D8C75DED1B2806900020B3E4 /* VersionVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionVisitor.h; sourceTree = "<group>"; };
+		D8C75DEE1B2806900020B3E4 /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+		D8C75DEF1B2806900020B3E4 /* XorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XorHandler.h; sourceTree = "<group>"; };
+		D8C75DF01B2806900020B3E4 /* ZshCompletionOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZshCompletionOutput.h; sourceTree = "<group>"; };
+		D8FD30C11B27FACA00C9AF59 /* DBTool OSX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DBTool OSX"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FD30C41B27FACA00C9AF59 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8FD30BE1B27FACA00C9AF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D818D3F91B28387800CEE370 /* libpbc Mac.a in Frameworks */,
+				D818D3FA1B28387D00CEE370 /* libdragonbones Mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D818D3DC1B2833B900CEE370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D818D3E11B2833B900CEE370 /* libpbc IOS.a */,
+				D818D3E31B2833B900CEE370 /* libpbc Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8C75DC31B27FE650020B3E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8C75DC81B27FE650020B3E4 /* libdragonbones IOS.a */,
+				D8C75DCA1B27FE650020B3E4 /* libdragonbones Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8C75DD61B2806900020B3E4 /* tclap */ = {
+			isa = PBXGroup;
+			children = (
+				D8C75DD71B2806900020B3E4 /* Arg.h */,
+				D8C75DD81B2806900020B3E4 /* ArgException.h */,
+				D8C75DD91B2806900020B3E4 /* ArgTraits.h */,
+				D8C75DDA1B2806900020B3E4 /* CmdLine.h */,
+				D8C75DDB1B2806900020B3E4 /* CmdLineInterface.h */,
+				D8C75DDC1B2806900020B3E4 /* CmdLineOutput.h */,
+				D8C75DDD1B2806900020B3E4 /* Constraint.h */,
+				D8C75DDE1B2806900020B3E4 /* DocBookOutput.h */,
+				D8C75DDF1B2806900020B3E4 /* HelpVisitor.h */,
+				D8C75DE01B2806900020B3E4 /* IgnoreRestVisitor.h */,
+				D8C75DE31B2806900020B3E4 /* MultiArg.h */,
+				D8C75DE41B2806900020B3E4 /* MultiSwitchArg.h */,
+				D8C75DE51B2806900020B3E4 /* OptionalUnlabeledTracker.h */,
+				D8C75DE61B2806900020B3E4 /* StandardTraits.h */,
+				D8C75DE71B2806900020B3E4 /* StdOutput.h */,
+				D8C75DE81B2806900020B3E4 /* SwitchArg.h */,
+				D8C75DE91B2806900020B3E4 /* UnlabeledMultiArg.h */,
+				D8C75DEA1B2806900020B3E4 /* UnlabeledValueArg.h */,
+				D8C75DEB1B2806900020B3E4 /* ValueArg.h */,
+				D8C75DEC1B2806900020B3E4 /* ValuesConstraint.h */,
+				D8C75DED1B2806900020B3E4 /* VersionVisitor.h */,
+				D8C75DEE1B2806900020B3E4 /* Visitor.h */,
+				D8C75DEF1B2806900020B3E4 /* XorHandler.h */,
+				D8C75DF01B2806900020B3E4 /* ZshCompletionOutput.h */,
+			);
+			path = tclap;
+			sourceTree = "<group>";
+		};
+		D8FD30B31B27FA8100C9AF59 = {
+			isa = PBXGroup;
+			children = (
+				D818D3DB1B2833B900CEE370 /* pbc.xcodeproj */,
+				D8C75DC21B27FE650020B3E4 /* DragonBonesCPP.xcodeproj */,
+				D8FD30C31B27FACA00C9AF59 /* DBTool */,
+				D8FD30C21B27FACA00C9AF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8FD30C21B27FACA00C9AF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8FD30C11B27FACA00C9AF59 /* DBTool OSX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8FD30C31B27FACA00C9AF59 /* DBTool */ = {
+			isa = PBXGroup;
+			children = (
+				D838BF7C1B314B860053B691 /* DBXMLConvert.cpp */,
+				D838BF7D1B314B860053B691 /* DBXMLConvert.h */,
+				D8C75DD61B2806900020B3E4 /* tclap */,
+				D8FD30C41B27FACA00C9AF59 /* main.cpp */,
+			);
+			path = DBTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8FD30C01B27FACA00C9AF59 /* DBTool OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FD30C61B27FACA00C9AF59 /* Build configuration list for PBXNativeTarget "DBTool OSX" */;
+			buildPhases = (
+				D8FD30BD1B27FACA00C9AF59 /* Sources */,
+				D8FD30BE1B27FACA00C9AF59 /* Frameworks */,
+				D8FD30BF1B27FACA00C9AF59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D818D3F81B28386300CEE370 /* PBXTargetDependency */,
+				D818D3F61B28386000CEE370 /* PBXTargetDependency */,
+			);
+			name = "DBTool OSX";
+			productName = DBTool;
+			productReference = D8FD30C11B27FACA00C9AF59 /* DBTool OSX */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8FD30B41B27FA8100C9AF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					D8FD30C01B27FACA00C9AF59 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D8FD30B71B27FA8100C9AF59 /* Build configuration list for PBXProject "DragonBonesTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8FD30B31B27FA8100C9AF59;
+			productRefGroup = D8FD30C21B27FACA00C9AF59 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D8C75DC31B27FE650020B3E4 /* Products */;
+					ProjectRef = D8C75DC21B27FE650020B3E4 /* DragonBonesCPP.xcodeproj */;
+				},
+				{
+					ProductGroup = D818D3DC1B2833B900CEE370 /* Products */;
+					ProjectRef = D818D3DB1B2833B900CEE370 /* pbc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D8FD30C01B27FACA00C9AF59 /* DBTool OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D818D3E11B2833B900CEE370 /* libpbc IOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpbc IOS.a";
+			remoteRef = D818D3E01B2833B900CEE370 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D818D3E31B2833B900CEE370 /* libpbc Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpbc Mac.a";
+			remoteRef = D818D3E21B2833B900CEE370 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D8C75DC81B27FE650020B3E4 /* libdragonbones IOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdragonbones IOS.a";
+			remoteRef = D8C75DC71B27FE650020B3E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D8C75DCA1B27FE650020B3E4 /* libdragonbones Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdragonbones Mac.a";
+			remoteRef = D8C75DC91B27FE650020B3E4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8FD30BD1B27FACA00C9AF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FD30C51B27FACA00C9AF59 /* main.cpp in Sources */,
+				D838BF7E1B314B860053B691 /* DBXMLConvert.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D818D3F61B28386000CEE370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "pbc Mac";
+			targetProxy = D818D3F51B28386000CEE370 /* PBXContainerItemProxy */;
+		};
+		D818D3F81B28386300CEE370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "dragonbones Mac";
+			targetProxy = D818D3F71B28386300CEE370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8FD30B81B27FA8100C9AF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/DBTool/",
+				);
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../client/frameworks/thirdparty/dragonbones $(SRCROOT)/../../client/frameworks/thirdparty/pbc $(SRCROOT)/../../client/frameworks/thirdparty/dragonbones/parsers";
+			};
+			name = Debug;
+		};
+		D8FD30B91B27FA8100C9AF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/DBTool/",
+				);
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../client/frameworks/thirdparty/dragonbones $(SRCROOT)/../../client/frameworks/thirdparty/pbc $(SRCROOT)/../../client/frameworks/thirdparty/dragonbones/parsers";
+			};
+			name = Release;
+		};
+		D8FD30C71B27FACA00C9AF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ./;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		D8FD30C81B27FACA00C9AF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ./;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8FD30B71B27FA8100C9AF59 /* Build configuration list for PBXProject "DragonBonesTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FD30B81B27FA8100C9AF59 /* Debug */,
+				D8FD30B91B27FA8100C9AF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FD30C61B27FACA00C9AF59 /* Build configuration list for PBXNativeTarget "DBTool OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FD30C71B27FACA00C9AF59 /* Debug */,
+				D8FD30C81B27FACA00C9AF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8FD30B41B27FA8100C9AF59 /* Project object */;
+}
