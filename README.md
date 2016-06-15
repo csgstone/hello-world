@@ -1,5 +1,6 @@
 # hello-world
 
 Hi, stone.
-It's a branch commit.
-delete some thing.
+
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
