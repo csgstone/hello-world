@@ -1,0 +1,305 @@
+Current Alarm Manager state:  
+nowRTC=1465886142536=2016-06-14 14:35:42 nowELAPSED=611222451
+Next alarm: 611179915 = 2016-06-14 14:35:00
+Next wakeup: 611227945 = 2016-06-14 14:35:48
+
+Pending alarm batches: 27
+Batch{43a919c8 num=1 start=611227945 end=611227945}:
+  ELAPSED_WAKEUP #0: Alarm{43e07a60 type 2 android}
+    type=2 whenElapsed=611227945 when=+5s494ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43950100: PendingIntentRecord{434db8f0 android broadcastIntent}}
+Batch{438f90f0 num=1 start=611231485 end=611231485}:
+  RTC_WAKEUP #0: Alarm{43d5e1c8 type 0 com.emagroup.hope}
+    type=0 whenElapsed=611231485 when=+9s34ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43f253b8: PendingIntentRecord{438e4e48 com.emagroup.hope broadcastIntent}}
+Batch{43a915d8 num=1 start=611239915 end=611239915 STANDALONE}:
+  ELAPSED #0: Alarm{43dff338 type 3 android}
+    type=3 whenElapsed=611239915 when=+17s464ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43911ad8: PendingIntentRecord{438e7520 android broadcastIntent}}
+Batch{43e4b240 num=1 start=611241493 end=611241493}:
+  RTC_WAKEUP #0: Alarm{43d50968 type 0 com.emagroup.hope}
+    type=0 whenElapsed=611241493 when=+19s42ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43f03cf8: PendingIntentRecord{43ff1ff0 com.emagroup.hope broadcastIntent}}
+Batch{43a90348 num=1 start=611277987 end=611327868}:
+  ELAPSED_WAKEUP #0: Alarm{43dfde30 type 2 com.qihoo.appstore}
+    type=2 whenElapsed=611277987 when=+55s536ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4444f2b8: PendingIntentRecord{43d30230 com.qihoo.appstore startService}}
+Batch{43a8fa10 num=2 start=611478223 end=611478223}:
+  ELAPSED_WAKEUP #1: Alarm{43df9c38 type 2 com.emagroup.hope}
+    type=2 whenElapsed=611478223 when=+4m15s772ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{4553a520: PendingIntentRecord{4454e360 com.emagroup.hope broadcastIntent}}
+  ELAPSED_WAKEUP #0: Alarm{43dfc268 type 2 android}
+    type=2 whenElapsed=611468032 when=+4m5s581ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{43ae2628: PendingIntentRecord{43ae9048 android broadcastIntent}}
+Batch{43a8e3f8 num=1 start=611494048 end=611494048}:
+  RTC #0: Alarm{43df7050 type 1 com.android.inputmethod.latin}
+    type=1 whenElapsed=611494048 when=+4m31s597ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43b874e0: PendingIntentRecord{43f32040 com.android.inputmethod.latin broadcastIntent}}
+Batch{43a8bbe0 num=1 start=611507325 end=611507325}:
+  ELAPSED_WAKEUP #0: Alarm{43df5930 type 2 com.sina.weibo}
+    type=2 whenElapsed=611507325 when=+4m44s874ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{439ca828: PendingIntentRecord{4383c7a0 com.sina.weibo broadcastIntent}}
+Batch{43a8bac0 num=1 start=611661524 end=611661524}:
+  RTC_WAKEUP #0: Alarm{43deed38 type 0 android}
+    type=0 whenElapsed=611661524 when=+7m19s73ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43c01130: PendingIntentRecord{43af1c88 android broadcastIntent}}
+Batch{43a8ac00 num=3 start=613011446 end=613011446}:
+  RTC_WAKEUP #2: Alarm{43deb968 type 0 com.emagroup.hope}
+    type=0 whenElapsed=613011446 when=+29m48s995ms window=0 repeatInterval=3600000 count=0
+    operation=PendingIntent{43f607e0: PendingIntentRecord{43cb0720 com.emagroup.hope broadcastIntent}}
+  RTC #1: Alarm{43dec940 type 1 com.huawei.systemmanager}
+    type=1 whenElapsed=612031858 when=+13m29s407ms window=0 repeatInterval=3600000 count=0
+    operation=PendingIntent{43b30f08: PendingIntentRecord{43add618 com.huawei.systemmanager broadcastIntent}}
+  ELAPSED #0: Alarm{43ded700 type 3 android}
+    type=3 whenElapsed=612015263 when=+13m12s812ms window=-1 repeatInterval=1800000 count=0
+    operation=PendingIntent{43ac7778: PendingIntentRecord{43ac7d98 android broadcastIntent}}
+Batch{43a8a0a0 num=1 start=613911457 end=613911457}:
+  RTC_WAKEUP #0: Alarm{43de92f0 type 0 com.emagroup.hope}
+    type=0 whenElapsed=613911457 when=+44m49s6ms window=0 repeatInterval=3600000 count=0
+    operation=PendingIntent{43f52990: PendingIntentRecord{4393f150 com.emagroup.hope broadcastIntent}}
+Batch{43a86978 num=3 start=622504083 end=622504083}:
+  RTC #2: Alarm{43ddb818 type 1 com.nuance.swype.emui}
+    type=1 whenElapsed=622504083 when=+3h8m1s632ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{4476d468: PendingIntentRecord{43fab768 com.nuance.swype.emui startService}}
+  RTC #1: Alarm{43ddf1e0 type 1 com.huawei.systemmanager}
+    type=1 whenElapsed=620490915 when=+2h34m28s464ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43b60dd8: PendingIntentRecord{43cddee0 com.huawei.systemmanager startService}}
+  ELAPSED #0: Alarm{43de8bc8 type 3 com.huawei.android.hwouc}
+    type=3 whenElapsed=615631702 when=+1h13m29s251ms window=0 repeatInterval=10800000 count=0
+    operation=PendingIntent{43b211a0: PendingIntentRecord{43b36830 com.huawei.android.hwouc broadcastIntent}}
+Batch{43a86928 num=2 start=626446158 end=626446158}:
+  RTC_WAKEUP #1: Alarm{43dcbb48 type 0 com.huawei.android.totemweather}
+    type=0 whenElapsed=626446158 when=+4h13m43s707ms window=0 repeatInterval=21600000 count=0
+    operation=PendingIntent{44a84560: PendingIntentRecord{43eceea8 com.huawei.android.totemweather broadcastIntent}}
+  RTC_WAKEUP #0: Alarm{43ddb0c0 type 0 com.huawei.android.ds}
+    type=0 whenElapsed=623347786 when=+3h22m5s335ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{43a01140: PendingIntentRecord{43a7c200 com.huawei.android.ds broadcastIntent}}
+Batch{43a81f68 num=6 start=640144884 end=643123774}:
+  RTC_WAKEUP #5: Alarm{43dba850 type 0 com.huawei.systemmanager}
+    type=0 whenElapsed=640144884 when=+8h2m2s432ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43931ac0: PendingIntentRecord{43c002d0 com.huawei.systemmanager broadcastIntent}}
+  RTC_WAKEUP #4: Alarm{43dbd698 type 0 com.android.providers.calendar}
+    type=0 whenElapsed=634391475 when=+6h26m9s23ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4402d200: PendingIntentRecord{440c6500 com.android.providers.calendar broadcastIntent}}
+  RTC #3: Alarm{43dc2e10 type 1 com.huawei.systemmanager}
+    type=1 whenElapsed=630679915 when=+5h24m17s464ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43d4f010: PendingIntentRecord{43d5a240 com.huawei.systemmanager broadcastIntent}}
+  RTC_WAKEUP #2: Alarm{43dc3600 type 0 com.qihoo.appstore}
+    type=0 whenElapsed=629447076 when=+5h3m44s625ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{438501b8: PendingIntentRecord{43b1c8b8 com.qihoo.appstore startService}}
+  ELAPSED #1: Alarm{43dc7950 type 3 com.android.phone}
+    type=3 whenElapsed=633619227 when=+6h13m16s776ms window=-1 repeatInterval=28800000 count=0
+    operation=PendingIntent{43b0e808: PendingIntentRecord{43a9e448 com.android.phone broadcastIntent}}
+  ELAPSED_WAKEUP #0: Alarm{43dcb940 type 2 com.qihoo.appstore}
+    type=2 whenElapsed=630530747 when=+5h21m48s296ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{43f53dd8: PendingIntentRecord{438fc5f0 com.qihoo.appstore startService}}
+Batch{43a80720 num=2 start=645079915 end=645079915}:
+  RTC #1: Alarm{43db1288 type 1 com.android.calendar}
+    type=1 whenElapsed=645079915 when=+9h24m17s464ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43a0cff0: PendingIntentRecord{43bc3408 com.android.calendar broadcastIntent}}
+  RTC_WAKEUP #0: Alarm{43db6768 type 0 com.tencent.mobileqq}
+    type=0 whenElapsed=644780683 when=+9h19m18s232ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43e6a548: PendingIntentRecord{43ff4ed8 com.tencent.mobileqq broadcastIntent}}
+Batch{43a7f7e0 num=1 start=646797701 end=646797701}:
+  ELAPSED #0: Alarm{43daf4b0 type 3 com.iflytek.speechsuite}
+    type=3 whenElapsed=646797701 when=+9h52m55s250ms window=0 repeatInterval=43200000 count=0
+    operation=PendingIntent{438fc098: PendingIntentRecord{44bccd88 com.iflytek.speechsuite broadcastIntent}}
+Batch{43a7c820 num=1 start=688279915 end=688279915 STANDALONE}:
+  RTC #0: Alarm{43dadc18 type 1 android}
+    type=1 whenElapsed=688279915 when=+21h24m17s464ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{438b72c0: PendingIntentRecord{438b7268 android broadcastIntent}}
+Batch{43a79b10 num=10 start=696411429 end=696411429}:
+  RTC_WAKEUP #9: Alarm{43d76150 type 0 com.emagroup.hope}
+    type=0 whenElapsed=696411429 when=+23h39m48s978ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43f66e68: PendingIntentRecord{43ed0678 com.emagroup.hope broadcastIntent}}
+  RTC #8: Alarm{43d81630 type 1 com.qihoo.appstore}
+    type=1 whenElapsed=691245399 when=+22h13m42s948ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4464d080: PendingIntentRecord{43cac498 com.qihoo.appstore startService}}
+  RTC_WAKEUP #7: Alarm{43d82a60 type 0 com.huawei.android.ds}
+    type=0 whenElapsed=691233092 when=+22h13m30s641ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{43a906b0: PendingIntentRecord{43a7f520 com.huawei.android.ds broadcastIntent}}
+  RTC_WAKEUP #6: Alarm{43d85880 type 0 com.huawei.android.ds}
+    type=0 whenElapsed=677479915 when=+18h24m17s464ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{44233208: PendingIntentRecord{4393e2f0 com.huawei.android.ds broadcastIntent}}
+  RTC #5: Alarm{43d89950 type 1 com.huawei.systemmanager}
+    type=1 whenElapsed=673879915 when=+17h24m17s464ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43875e28: PendingIntentRecord{43bd72f8 com.huawei.systemmanager broadcastIntent}}
+  RTC_WAKEUP #4: Alarm{43d89a10 type 0 com.qihoo.appstore}
+    type=0 whenElapsed=664562127 when=+14h48m59s676ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{43cb27f8: PendingIntentRecord{43962358 com.qihoo.appstore startService}}
+  RTC_WAKEUP #3: Alarm{43d8aa58 type 0 com.qihoo.appstore}
+    type=0 whenElapsed=658338775 when=+13h5m16s324ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{43cb2b28: PendingIntentRecord{43ea21d0 com.qihoo.appstore startService}}
+  ELAPSED #2: Alarm{43d9bfc0 type 3 com.huawei.bd}
+    type=3 whenElapsed=691411122 when=+22h16m28s671ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{435b2e30: PendingIntentRecord{43f31ae8 com.huawei.bd broadcastIntent}}
+  ELAPSED #1: Alarm{43d9c918 type 3 com.vlife.huawei.wallpaper}
+    type=3 whenElapsed=691238337 when=+22h13m35s886ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{43adac88: PendingIntentRecord{43addfe0 com.vlife.huawei.wallpaper startService}}
+  ELAPSED #0: Alarm{43da4d98 type 3 com.vlife.huawei.wallpaper}
+    type=3 whenElapsed=691237335 when=+22h13m34s884ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{434c3988: PendingIntentRecord{43dcb390 com.vlife.huawei.wallpaper startService}}
+Batch{43a68e38 num=1 start=696711438 end=696711438}:
+  RTC_WAKEUP #0: Alarm{43d75780 type 0 com.emagroup.hope}
+    type=0 whenElapsed=696711438 when=+23h44m48s987ms window=0 repeatInterval=86400000 count=0
+    operation=PendingIntent{43f62720: PendingIntentRecord{43dceb20 com.emagroup.hope broadcastIntent}}
+Batch{43a67800 num=1 start=701026944 end=768388543}:
+  RTC_WAKEUP #0: Alarm{43d75190 type 0 com.qihoo.appstore}
+    type=0 whenElapsed=701026944 when=+1d0h56m44s492ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{44d8d430: PendingIntentRecord{43ec8538 com.qihoo.appstore startService}}
+Batch{43a5d370 num=2 start=803098527 end=803098527}:
+  RTC_WAKEUP #1: Alarm{43d6f880 type 0 com.huawei.android.ds}
+    type=0 whenElapsed=777633086 when=+1d22h13m30s635ms window=-1 repeatInterval=259200000 count=0
+    operation=PendingIntent{43afe338: PendingIntentRecord{43af2908 com.huawei.android.ds broadcastIntent}}
+  ELAPSED_WAKEUP #0: Alarm{43d70820 type 2 android}
+    type=2 whenElapsed=803098527 when=+2d5h17m56s76ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43d1d850: PendingIntentRecord{43b82710 android broadcastIntent}}
+Batch{43a5a438 num=1 start=1128411465 end=1128411465}:
+  RTC_WAKEUP #0: Alarm{43d6ee58 type 0 com.emagroup.hope}
+    type=0 whenElapsed=1128411465 when=+5d23h39m49s14ms window=0 repeatInterval=604800000 count=0
+    operation=PendingIntent{43f3d4f0: PendingIntentRecord{438f8318 com.emagroup.hope broadcastIntent}}
+Batch{43a3b2a0 num=1 start=1128711476 end=1128711476}:
+  RTC_WAKEUP #0: Alarm{43d61298 type 0 com.emagroup.hope}
+    type=0 whenElapsed=1128711476 when=+5d23h44m49s25ms window=0 repeatInterval=604800000 count=0
+    operation=PendingIntent{43f25990: PendingIntentRecord{43a78c88 com.emagroup.hope broadcastIntent}}
+Batch{43a583f0 num=1 start=1209645124 end=1209645124}:
+  RTC #0: Alarm{43d6d2a8 type 1 com.huawei.lcagent}
+    type=1 whenElapsed=1209645124 when=+6d22h13m42s673ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43ed0348: PendingIntentRecord{43409a90 com.huawei.lcagent startService}}
+Batch{43a4de60 num=2 start=1376797642 end=1658470668}:
+  RTC_WAKEUP #1: Alarm{43d68180 type 0 com.huawei.KoBackup}
+    type=0 whenElapsed=1209645301 when=+6d22h13m42s850ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{43d10128: PendingIntentRecord{4394a2e0 com.huawei.KoBackup startService}}
+  ELAPSED #0: Alarm{43d69318 type 3 android}
+    type=3 whenElapsed=1376797642 when=+8d20h39m35s191ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{43649278: PendingIntentRecord{43bcf048 android broadcastIntent}}
+Batch{43a4a550 num=1 start=2592040005 end=2592040005}:
+  RTC #0: Alarm{43d665e0 type 1 com.huawei.systemmanager}
+    type=1 whenElapsed=2592040005 when=+22d22h13m37s554ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{43cd2da8: PendingIntentRecord{43aaeab0 com.huawei.systemmanager startService}}
+Batch{43a41bb0 num=1 start=1465728672141 end=1465728672141}:
+  ELAPSED #0: Alarm{43d63778 type 3 com.tencent.mobileqq}
+    type=3 whenElapsed=1465728672141 when=+999d23h59m59s999ms window=0 repeatInterval=1200000 count=0
+    operation=PendingIntent{431d4470: PendingIntentRecord{4320f720 com.tencent.mobileqq broadcastIntent}}
+
+  Broadcast ref count: 0
+
+  Top Alarms:
+    +12m55s937ms running, 0 wakeups, 8358 alarms: android
+       act=android.intent.action.TIME_TICK
+    +1m12s548ms running, 1714 wakeups, 1714 alarms: android
+       act=android.content.syncmanager.SYNC_ALARM
+    +56s674ms running, 1077 wakeups, 1077 alarms: android
+       act=com.huawei.intent.action.PUSH
+    +40s4ms running, 0 wakeups, 340 alarms: android
+       act=com.android.server.action.NETWORK_STATS_POLL
+    +33s219ms running, 820 wakeups, 820 alarms: android
+       act=android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+    +21s165ms running, 0 wakeups, 169 alarms: com.huawei.systemmanager
+       act=android.intent.action.POWER_STATISTIC
+    +19s988ms running, 29 wakeups, 29 alarms: com.huawei.android.totemweather
+       act=com.huawei.android.action.ALARM_TASK cmp={com.huawei.android.totemweather/com.huawei.android.totemweather.utils.CenterReceiver}
+    +10s501ms running, 8 wakeups, 8 alarms: com.huawei.systemmanager
+       act=com.huawei.harassmentinterception.update.ALARM_TASK cmp={com.huawei.systemmanager/com.huawei.harassmentinterception.receiver.InterceptionReceiver}
+    +8s752ms running, 0 wakeups, 8 alarms: com.huawei.systemmanager
+       act=com.huawei.systemmanager.stat.dially
+    +8s145ms running, 8 wakeups, 8 alarms: com.huawei.android.ds
+       act=spacenotifyaction cmp={com.huawei.android.ds/com.huawei.android.hicloud.common.receiver.AlarmNotifyReceiver}
+ 
+  Alarm Stats:
+  com.cootek.smartdialer_oem_module +1s158ms running, 0 wakeups:
+    +1s158ms 0 wakes 11 alarms: act=com.cootek.presentation.action.CONFIG_UPDATE
+    +754ms 0 wakes 6 alarms: act=com.cootek.smartdialer_oem_module.action.auto_update
+  android +14m54s27ms running, 3673 wakeups:
+    +12m55s937ms 0 wakes 8358 alarms: act=android.intent.action.TIME_TICK
+    +1m12s548ms 1714 wakes 1714 alarms: act=android.content.syncmanager.SYNC_ALARM
+    +56s674ms 1077 wakes 1077 alarms: act=com.huawei.intent.action.PUSH
+    +40s4ms 0 wakes 340 alarms: act=com.android.server.action.NETWORK_STATS_POLL
+    +33s219ms 820 wakes 820 alarms: act=android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+    +1s751ms 0 wakes 7 alarms: act=android.intent.action.DATE_CHANGED
+    +1s299ms 58 wakes 58 alarms: act=com.android.server.IdleMaintenanceService.action.UPDATE_IDLE_MAINTENANCE_STATE
+    +58ms 2 wakes 2 alarms: act=com.huawei.action.CONNECT_PUSHSRV
+    +8ms 1 wakes 1 alarms: act=com.huawei.android.push.intent.HEARTBEAT_RSP_TIMEOUT
+    +6ms 1 wakes 1 alarms: act=android.net.wifi.DHCP_RENEW
+  com.android.contacts +18ms running, 0 wakeups:
+    +18ms 0 wakes 1 alarms: act=android.intent.action.ACTION_ONALARM cmp={com.android.contacts/com.android.mms.transaction.TransactionService}
+  com.huawei.android.ds +10s805ms running, 26 wakeups:
+    +8s145ms 8 wakes 8 alarms: act=spacenotifyaction cmp={com.huawei.android.ds/com.huawei.android.hicloud.common.receiver.AlarmNotifyReceiver}
+    +7s265ms 9 wakes 9 alarms: act=atuobackupnotepadtimeraction cmp={com.huawei.android.ds/com.huawei.android.hicloud.common.receiver.AlarmNotifyReceiver}
+    +2s333ms 7 wakes 7 alarms: act=checkfileexistaction cmp={com.huawei.android.ds/com.huawei.android.hicloud.common.receiver.AlarmNotifyReceiver}
+    +269ms 2 wakes 2 alarms: act=autoupdateaction cmp={com.huawei.android.ds/com.huawei.android.hicloud.common.receiver.AlarmNotifyReceiver}
+  com.android.inputmethod.latin +434ms running, 0 wakeups:
+    +434ms 0 wakes 6 alarms: act=com.android.inputmethod.dictionarypack.aosp.UPDATE_NOW
+  com.huawei.hwid +15ms running, 1 wakeups:
+    +15ms 1 wakes 1 alarms: act=com.huawei.hwid.SIM_CHANGE_SERVICE
+  com.android.phone +3s550ms running, 0 wakeups:
+    +3s550ms 0 wakes 21 alarms: act=com.android.phone.UPDATE_CALLER_INFO_CACHE cmp={com.android.phone/com.android.phone.CallerInfoCacheUpdateReceiver}
+  com.huawei.bd +155ms running, 0 wakeups:
+    +155ms 0 wakes 8 alarms: act=com.huawei.bd.action.heartbeat
+  com.huawei.systemmanager +32s959ms running, 8 wakeups:
+    +21s165ms 0 wakes 169 alarms: act=android.intent.action.POWER_STATISTIC
+    +10s501ms 8 wakes 8 alarms: act=com.huawei.harassmentinterception.update.ALARM_TASK cmp={com.huawei.systemmanager/com.huawei.harassmentinterception.receiver.InterceptionReceiver}
+    +8s752ms 0 wakes 8 alarms: act=com.huawei.systemmanager.stat.dially
+    +362ms 0 wakes 7 alarms: act=com.huawei.android.LACK_MEMORY_NOTIFY
+    +238ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_THUMBNAIL_CLEAN cmp={com.huawei.systemmanager/com.huawei.dianxinos.optimizer.engine.EngineIntentService}
+    +226ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_ANTISPAM_PROFILES_UPDATE cmp={com.huawei.systemmanager/com.huawei.dianxinos.optimizer.engine.EngineIntentService}
+    +113ms 0 wakes 8 alarms: act=huawei.intent.action.antivirus.autoupdate
+    +60ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_ANTISPAM_KEYWORDS_UPDATE cmp={com.huawei.systemmanager/com.huawei.dianxinos.optimizer.engine.EngineIntentService}
+    +29ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_ANTISPAM_PHONELABEL_UPDATE cmp={com.huawei.systemmanager/com.huawei.dianxinos.optimizer.engine.EngineIntentService}
+    +26ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_ANTISPAM_PHONELABEL_UPDATE cmp={com.huawei.systemmanager/com.dianxinos.optimizer.engine.EngineIntentService}
+    +11ms 0 wakes 1 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_THUMBNAIL_CLEAN cmp={com.huawei.systemmanager/com.dianxinos.optimizer.engine.EngineIntentService}
+    +8ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_ANTISPAM_KEYWORDS_UPDATE cmp={com.huawei.systemmanager/com.dianxinos.optimizer.engine.EngineIntentService}
+    +8ms 0 wakes 2 alarms: act=com.dianxinos.optimizer.action.ALARM_EVENT_ANTISPAM_PROFILES_UPDATE cmp={com.huawei.systemmanager/com.dianxinos.optimizer.engine.EngineIntentService}
+  com.huawei.phoneservice 0 running, 0 wakeups:
+  com.android.gallery3d 0 running, 0 wakeups:
+  cn.emagroup.kom.uc +2s193ms running, 29 wakeups:
+    +2s193ms 29 wakes 29 alarms: act=AlarmTaskSchedule.cn.emagroup.kom.uc
+  com.android.providers.calendar +6s43ms running, 15 wakeups:
+    +5s650ms 8 wakes 8 alarms: act=com.android.providers.calendar.intent.CalendarProvider2
+    +393ms 7 wakes 7 alarms: act=com.android.providers.calendar.SCHEDULE_ALARM cmp={com.android.providers.calendar/com.android.providers.calendar.CalendarReceiver}
+  com.sina.weibo +867ms running, 20 wakeups:
+    +867ms 20 wakes 20 alarms: act=com.sina.heartbeat.action.1004
+  com.huawei.KoBackup +1s4ms running, 1 wakeups:
+    +1s4ms 1 wakes 1 alarms: cmp={com.huawei.KoBackup/com.huawei.android.backup.schedule.BackupScheduleIntentService}
+  com.huawei.camera +37ms running, 1 wakeups:
+    +37ms 1 wakes 1 alarms: act=com.huawei.camera.TIMEOUT_ACTION
+  com.huawei.wallet 0 running, 0 wakeups:
+  com.huawei.android.hwouc +6s802ms running, 3 wakeups:
+    +6s736ms 0 wakes 56 alarms: act=START_UP_HIWIBD_BI cmp={com.huawei.android.hwouc/com.huawei.hiwibd.android.HiWiReceiver}
+    +66ms 3 wakes 3 alarms: act=huawei.android.intent.action.AUTO_CHECK_FOR_NEW_VERSION cmp={com.huawei.android.hwouc/com.huawei.android.hwouc.biz.impl.service.AutoCheckService}
+  cn.emagroup.sdmb.emagroup +2s201ms running, 30 wakeups:
+    +2s201ms 30 wakes 30 alarms: act=AlarmTaskSchedule.cn.emagroup.sdmb.emagroup
+  com.android.calendar +1s604ms running, 0 wakeups:
+    +1s604ms 0 wakes 7 alarms: act=com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+  com.android.browser 0 running, 0 wakeups:
+  com.huawei.lcagent +1s3ms running, 0 wakeups:
+    +1s3ms 0 wakes 1 alarms: act=com.huawei.lcagent.timer.WEEKLY_REPORT cmp={com.huawei.lcagent/com.huawei.lcagent.service.LogCollectService}
+  com.vlife.huawei.wallpaper +1s299ms running, 0 wakeups:
+    +1s281ms 0 wakes 7 alarms: act=com.handpet.component.stat.UaTimerSendTask cmp={com.vlife.huawei.wallpaper/com.vlife.service.VlifeTaskService}
+    +1s240ms 0 wakes 7 alarms: act=com.handpet.component.notification.push.GetPushMessageTask cmp={com.vlife.huawei.wallpaper/com.vlife.service.VlifeTaskService}
+  com.android.providers.downloads.ui 0 running, 0 wakeups:
+  com.nuance.swype.emui +84ms running, 0 wakeups:
+    +84ms 0 wakes 9 alarms: cmp={com.nuance.swype.emui/com.nuance.connect.service.ConnectClient}
+  com.huawei.android.totemweather +19s988ms running, 29 wakeups:
+    +19s988ms 29 wakes 29 alarms: act=com.huawei.android.action.ALARM_TASK cmp={com.huawei.android.totemweather/com.huawei.android.totemweather.utils.CenterReceiver}
+  com.qihoo.appstore +92ms running, 7 wakeups:
+    +80ms 5 wakes 5 alarms: act=TAKE_PUSH_KEEPALIVE cmp={com.qihoo.appstore/com.qihoo.core.CoreService}
+    +10ms 1 wakes 1 alarms: act=AUTO_UPDATE_APP_DAYTIME_AND_SELF_BACKGROUND cmp={com.qihoo.appstore/com.qihoo.core.CoreService}
+    +2ms 1 wakes 1 alarms: act=RESTART_PUSH cmp={com.qihoo.appstore/com.qihoo.core.CoreService}
+  com.android.keyguard +368ms running, 6 wakeups:
+    +368ms 6 wakes 6 alarms: act=com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+  com.huawei.hwvplayer 0 running, 0 wakeups:
+  com.emagroup.hope +270ms running, 3 wakeups:
+    +187ms 1 wakes 1 alarms: act=ACTION_1001 cmp={com.emagroup.hope/com.repong.framework.LocalNotificationReceiver}
+    +73ms 1 wakes 1 alarms: act=ACTION_1002 cmp={com.emagroup.hope/com.repong.framework.LocalNotificationReceiver}
+    +10ms 1 wakes 1 alarms: act=com.gotye.sdk.action_keep_alive.30901cef-6ac2-4089-b156-1ff0980eec26
+  com.tencent.mobileqq +7s707ms running, 51 wakeups:
+    +6s207ms 37 wakes 37 alarms: act=com.tencent.mobileqq:MSF_1127357176
+    +1s331ms 7 wakes 7 alarms: act=com.tencent.mobileqq:MSF_1128437472
+    +90ms 3 wakes 3 alarms: act=com.tencent.mobileqq:MSF_1128184952
+    +33ms 2 wakes 2 alarms: act=MSF_Action_Refresh_Steps
+    +20ms 0 wakes 1 alarms: act=StepAlarmReceiver_action_report
+    +16ms 1 wakes 1 alarms: act=com.tencent.mobileqq.rdm.report
+    +10ms 1 wakes 1 alarms: act=com.tencent.mobileqq:MSF_1126107536
+  com.android.providers.media 0 running, 0 wakeups:
+  com.android.providers.downloads 0 running, 0 wakeups:
