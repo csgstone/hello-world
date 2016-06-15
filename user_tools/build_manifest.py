@@ -10,6 +10,10 @@ import hashlib
 import shutil
 import re
 import zipfile
+import center
+
+
+
 
 HOST_URL="http://gameres.repong.cn:8080"
 
