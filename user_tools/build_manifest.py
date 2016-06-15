@@ -11,8 +11,6 @@ import shutil
 import re
 import zipfile
 
-
-
 HOST_URL="http://gameres.repong.cn:8080"
 
 def md5Checksum(filePath):
